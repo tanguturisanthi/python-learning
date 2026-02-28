@@ -22,13 +22,7 @@ movie="shutter island"
 food="jalebi"
 colour="black"
 print(f'my favourite movie is {movie}\n My alltime favourite  food is {food}\n my fvrte colour is {colour}')
- 
-#age calculator
-"""b=2004
-age=2025-b
-print(f"my current age is {age}.")
-print(f"after 5 yrs ,i would be {age +5} ")
-print(f"after 10 yrs ,i would be {age +10} ")"""
+
 
 #swap two values
 a=10
@@ -36,6 +30,7 @@ b=20
 print(a,b)
 a,b=b,a
 print(a,b)
+
 #age calculatorr
 born=int(input("enter your birth year"))
 month=int(input("enter your birth month"))
