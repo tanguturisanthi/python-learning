@@ -21,3 +21,5 @@ age = messy_string.split(';')[-1].strip()
 
 clean_summary = f"{name}, {role}, {age}"
 print(clean_summary)
+
+
