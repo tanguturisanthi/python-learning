@@ -3,7 +3,7 @@ for i in range(1,11):
     val=7*i
     print(f'7*{i}={val}')
 #star pattern
-for i in  range(7,0):
+for i in  range(7,0,-1):
     print("*"*i)
 # list of questions
 ques=['what is LLM?','what is RAG?','what is the role of API in LLM app development?','what is a prompt?','what is AI?']
