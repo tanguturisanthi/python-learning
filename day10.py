@@ -1,13 +1,13 @@
-# # token counter
-# # msgs=["what is todaay's update","what is claude101?","","this is vscode","tell about vibe coding"]
-# msgs=["hello world", ""]
-# count=0
-# for msg in msgs:
-#     words=msg.split()
-#     if msg == "":
-#        continue
-#     count+=len(words)
-#     print(f"words={count}")
+# token counter
+msgs=["what is todaay's update","what is claude101?","","this is vscode","tell about vibe coding"]
+msgs=["hello world", ""]
+count=0
+for msg in msgs:
+    words=msg.split()
+    if msg == "":
+       continue
+    count+=len(words)
+    print(f"words={count}")
     
 #  blocked keyword filter
 blocked_words=['error','theft','drugs','abuse']
